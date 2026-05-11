@@ -64,6 +64,18 @@ p {
     border-color: var(--primary-color);
 }
 
+.botao-apagar{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
 button.btn-add-tarefa {
     background-color: var(--primary-color);
     color: white;
@@ -72,11 +84,16 @@ button.btn-add-tarefa {
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.1s ease;
+    transition: .2s;
 }
 
 button.btn-add-tarefa:hover {
     background-color: var(--primary-hover);
+}
+
+.botao-apagar:hover{
+    transform: scale(1.05);
+    background-color: red;
 }
 
 button.btn-add-tarefa:active {
